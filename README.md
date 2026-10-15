@@ -1,5 +1,7 @@
 # Secure Record Storage
 
+## By [Mamadou Moussa Balde](https://www.linkedin.com/in/2mb/)
+
 An Express API for user accounts and private notes. Passwords are hashed with bcrypt before they are saved. Register and login return a JSON Web Token that expires in two hours. Each note is stored with the user id from that token, and a logged-in user can list, update, and delete only their own notes.
 
 There is no HTML page for these routes. The screenshots below are the JSON the API returned while the server was running. A URL that does not match a route returns one HTML heading and no stylesheet.
